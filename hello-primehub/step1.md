@@ -14,17 +14,27 @@
 
 `mv linux-amd64/helm /usr/local/bin/helm`{{execute}}
 
+**Verify**
+
+`helm version --client`{{execute}}
+
 ### Initialize Helm and Tiller
 
 **Check if two nodes are ready**
 
-Check if controlplane(master) and node01 are in Ready.
+Check if controlplane(master) and node01 are in Ready; wait until two nodes are in Ready.
 
 `kubectl get nodes`{{execute}}
 
 **Helm init**
 
-`helm init`{{execute}}
+`helm init --wait`{{execute}}
+
+**Wait and Watch**
+
+It may take a while until Tiller is ready.
+
+In Terminal 2, `watch 'kubectl get pods -A | grep tiller'`{{execute T2}}
 
 **Tiller role binding**
 
@@ -50,13 +60,6 @@ subjects:
     namespace: kube-system
 EOF
 ```{{execute}}
-
-
-**Check if Tiller is ready**
-
-It may take a while until Tiller is ready.
-
-`kubectl get pods -A | grep tiller`{{execute}}
 
 **Verify**
 
