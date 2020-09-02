@@ -1,7 +1,7 @@
 {
   "private": false,
-  "title": "PrimeHub CE Installation with Helm3 v0.0.5",
-  "description": "PrimeHub CE Installation Scenario with Helm3",
+  "title": "PrimeHub CE v3 Installation",
+  "description": "PrimeHub CE v3 Installation Scenario (v0.1)",
   "difficulty": "beginner",
   "time": "25 minutes",
   "icon": "icon.png",
@@ -20,20 +20,12 @@
         "text": "step3.md"
       },
       {
-        "title": "Install Metacontroller",
+        "title": "Install PrimeHub CE",
         "text": "step4.md"
       },
       {
-        "title": "Install Keycloak",
-        "text": "step5.md"
-      },
-      {
-        "title": "Install PrimeHub CE",
-        "text": "step6.md"
-      },
-      {
         "title": "Launch JupyterHub",
-        "text": "step7.md"
+        "text": "step5.md"
       }
     ],
     "intro": {
