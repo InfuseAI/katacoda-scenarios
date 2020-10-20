@@ -6,7 +6,7 @@
 
 `curl -O https://get.helm.sh/helm-v3.3.4-linux-amd64.tar.gz`{{execute}}
 
-**Extract tar file and move it**
+**Extract and move tar file**
 
 `tar -zxvf helm-v3.3.4-linux-amd64.tar.gz; mv linux-amd64/helm /usr/local/bin/helm`{{execute}}
 
