@@ -1,6 +1,6 @@
 **Helm Install**
 
-`helm repo add stable https://kubernetes-charts.storage.googleapis.com`{{execute T1}}
+`helm repo add stable https://charts.helm.sh/stable`{{execute T1}}
 
 `helm repo update`{{execute}}
 
