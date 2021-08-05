@@ -11,15 +11,15 @@
 
 ## Welcome to PrimeHub CE v3 installation scenario.
 
-The purpose of this scenario is to let audience to feel how easy the brand new PrimeHub CE v3 installation could be.
+The purpose of this scenario is to walk audience through PrimeHub CE v3.c easy installation on 2-Node Kubernetes cluster.
 
-In this scenario, we will walk you through the installation steps referring to [PrimeHub CE repo](https://github.com/InfuseAI/primehub/blob/master/INSTALL.md).
++ Step 1 to step 2: Set up an existing 2-Node Kubernetes cluster to become PrimeHub-ready cluster.
++ Step 3: Install PrimeHub CE.
++ Step 4: Launch a Jupyter Notebook in PrimeHub.
 
-+ Step 1 to step 3: Set up a PrimeHub-ready Kubernetes cluster.
-+ Step 4: Install PrimeHub CE.
-+ Step 5: Launch a Jupyter Notebook in PrimeHub.
+Grab a cup of coffee and start the scenario.
 
-Grab a cup of coffee and let's the scenario.
+▶️ Visit [PrimeHub CE GitHub repo](https://github.com/InfuseAI/primehub) and [PrimeHub Documentation](https://docs.primehub.io/)for the detail.
 
 **Tips**: Simply click the code-blocks in each step to execute the code without need to type anything.
 
