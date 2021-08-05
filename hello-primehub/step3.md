@@ -55,3 +55,4 @@ You should see the login page of PrimeHub Console.
 Hooray! PrimeHub CE has been installed and is running now. The final step, let's launch a Jupyter Notebook on PrimeHub.
 
 Don't forget the password!
+
